@@ -1,8 +1,7 @@
 # Programa para controle de estoque
 Programa para realizar controle de estoque, feito em C++ utilizando banco de dados SQL (MYSQL) e QT como interface gráfica.
 
-Este é o primeiro projeto que escrevo utilizando interface gráfica e Banco de Dados.
-Minha principal motivação para a criação desse programa é para a pratica e aprofundamento dos conhecimentos obtidos por mim através de pesquisas e estudos.
+Este é o primeiro projeto que criei utilizando interface gráfica e banco de dados. Minha principal motivação é a pratica e o aprofundamento dos conhecimentos obtidos através de estudos e pesquisas.
 
 ******
 
@@ -21,11 +20,11 @@ O usuário padrão do sistema é o 'root'. Para realizar o login é preciso info
 
 </a><img src = "https://i.imgur.com/JnPcAjR.png" alt="Janela Principal do Programa."></a>
 
-Após realizar o Login, a Janela Estoque será apresentada. Carregando inicialmente todos os produtos registrados anteriormente, produtos que estão gravados no Banco de Dados.
+Ao realizar login, a janela estoque será apresentada, carregando inicialmente todos os produtos registrados anteriormente que estão gravados no Banco de Dados.
 
-O campo de busca por código é utilizado para se obter uma busca precisa de um produto. O código de produto é único, não sendo permitida a repetição de um código já registrado.
+O campo de busca por código é utilizado para obter a busca precisa de um determinado produto. O código de produto é único, não sendo permitido a repetição de um código já registrado.
 
-O campo de busca por marca é utilizado quando se dejesa obter uma lista de produtos de uma mesma marca, carregando a tabela com todos os produtos que compartilham da mesma marca.
+O campo de busca por marca é utilizado quando deseja-se obter uma lista de produtos que ao pesquisar, apresentará uma tabela com todos os produtos que compartilham da mesma marca.
 
 </a><img src = "https://i.imgur.com/rWygMC4.png" alt="Janela Principal com busca realizada por marca."></a>
 
